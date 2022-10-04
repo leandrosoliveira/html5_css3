@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+body{
+    background-color:rgb(23, 240, 175) ;
+ 
+}
+
+header{
+background-image: linear-gradient(to bottom, rgb(41, 172, 41),  rgb(16, 71, 34));
+padding:10px 10px 10px 10px;
+margin: -10px -20px 0px -10px;
+}
+h1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    border: 10px;
+    text-shadow: 1px 1px 1px black;
+   
+}
+header > h2{
+    text-align: center;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12pt;
+padding: 20px;
+text-shadow: 1px 1px 1px black;
+}
+   div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-decoration: none;
+   display: inline-block;
+   color: white;
+   text-align: center;
+   margin: 5px;
+   padding: 10px;
+}
+/*div:hover{
+    background-color: rgba(85, 107, 47, 0.226);
+}*/
+
+    
+
+main{
+    background-color: white;
+    width: 800px;
+    margin: -25px 200px 50px 500px;
+    border-radius: 0px 0px 7px 7px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.438);
+    
+    
+}
+section#historia> article> h2{
+    color: rgb(15, 68, 15);
+font-family: IDroid, Helvetica, sans-serif;
+font-size: 30px;
+padding:10px 2px 3px 10px ;
+    @font-face {
+        font-family:'IDroid' ;
+        src: IDroid url(IDroid.otf) format('opentype');
+        font-weight: normal;
+        font-style:normal;
+    }
+}
+section#historia > article > p{
+    text-indent: 20px;
+    margin: 10px;
+}
+section#primeira> article> h2{
+    /*background-color: rgba(12, 83, 65, 0.397);*/
+    background-image: linear-gradient(to right, rgb(87, 173, 87), white);
+    color: rgb(15, 68, 15);
+    font-family: IDroid, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+        @font-face {
+            font-family:'IDroid' ;
+            src: IDroid url(IDroid.otf) format('opentype');
+            font-weight: normal;
+            font-style:normal;
+            
+        }
+    }
+    section#primeira > article > p{
+        text-indent: 20px;
+        margin: 10px;
+    }    
+
+
+section#primeira >article> div {
+    margin: 1px 1px 1px 200px;
+    
+}
+ 
+section#video > video{
+    background-color: rgb(10, 82, 42);
+    padding:25px
+}
+
+article > h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 128, 85);
+    color: white;
+    padding: 8px 5px 8px 20px;
+    border-radius: 5px 5px 0px 0px;
+}
+section#final{
+    background-color: rgba(54, 230, 142, 0.5);
+    margin:10px;
+    padding: 0px 0px 10px 0px;
+   
+}
+section#final > article> p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    
+}
+section#final > article> p > strong{
+    color:  rgb(15, 68, 15);
+}
+
+#colunaum{
+    color: black;
+    text-align: left;
+}
+
+#colunadois{
+    color: black;
+    text-align: left;
+}
+
+.paragrafo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 40px;
+   text-align:justify;
+   padding: 1px 30px 1px 1px;
+  margin: 1px 20px 30px 20px;
+}
+.paragrafo >strong{
+      color:  rgb(15, 68, 15);
+}
+footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    background-color:rgb(10, 82, 42); 
+    margin-bottom:  -auto;
+    
+}
+
+   
+   
+
+
+   

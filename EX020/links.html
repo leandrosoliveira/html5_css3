@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    
+    <style>
+             /* SELETORES PERSONALIZADOS
+             # = id
+             . = class
+             : = pseudo-class
+             :: = pseudo-element
+             > = children(filho)
+             */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            font-size: 25pt;
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: rgb(94, 4, 4);
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active {
+            color: yellow;
+
+        }
+        .especial{
+            background-color: rgb(175, 126, 126);
+        }
+        .especial::before{
+            content:'→';
+            color: red;
+        }
+        .especial::after{
+            
+            content: '←';
+            text-decoration: none;
+            font-weight: normal;
+            color:red;
+          
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.google.com/"target=_blank
+            >Google</a></li>
+        <li><a href="https://www.youtube.com/">Youtube</a></li>
+        <a href="https://shopee.com.br/" class="especial">Shopee<a>
+    </ul>
+</body>
+</html>
